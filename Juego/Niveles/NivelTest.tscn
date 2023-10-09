@@ -5,12 +5,5 @@
 [node name="NivelTest" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 449.339, 159.196 )
-mode = 1
-mass = 10.0
-gravity_scale = 5.0
-
-[node name="Player2" parent="." instance=ExtResource( 1 )]
-position = Vector2( 453.834, 246.097 )
-mass = 122.449
-gravity_scale = 3.0
+position = Vector2( 377.147, 237.962 )
+angular_damp = 15.0
